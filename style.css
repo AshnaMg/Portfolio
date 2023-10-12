@@ -1,0 +1,190 @@
+* {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+/* header css*/
+.profile-image {
+    width: 120px;
+    margin-left: 50px;
+}
+
+.img-hover:hover {
+    transform: scale(1.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    margin-right: 160px;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+#home {
+    margin-top: 100px;
+}
+
+.home-first-div {
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.home-name {
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+.second-name {
+    color: orange;
+}
+
+.download_cv {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 30px 0px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.home-second-div {
+    position: absolute;
+    width: 45%;
+    height: 80%;
+    bottom: 0px;
+    right: 30px;
+}
+
+.home-second-div img {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.home-second-div:hover #bg-shape {
+    bottom: 70px;
+}
+
+.home-second-div:hover #girl {
+    left: 40%;
+}
+
+#about {
+    margin: 15% 8% 0% 8%;
+}
+
+.about-title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+    gap: 2rem;
+}
+
+.about-body img {
+    width: 480px;
+}
+
+.about-info div {
+    margin-bottom: 10px;
+}
+
+.about-body-content p {
+    text-align: justify;
+}
+
+.skills-title {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-bottom: 30px;
+    width: 400px;
+}
+
+.skills-perc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-cover-div {
+    display: flex;
+}
+
+.skills-body {
+    position: relative;
+    width: 450px;
+    margin: 20px 0 50px 150px;
+
+}
+
+.skills-body-bar-graph {
+    margin-bottom: 30px;
+}
+
+.first-skill-bl {
+    position: relative;
+    width: 450px;
+    height: 8px;
+    background: #000;
+    border-radius: 5px;
+}
+
+.first-skill-yl {
+    position: absolute;
+    height: 8px;
+    background: yellow;
+}
+
+.skills-img {
+    margin: -20px 0 0 160px;
+}
+
+.skills-img img {
+    width: 80%;
+}
+
+.contact-icons {
+    margin-left: 580px;
+}
+
+.contact-icons .fa-brands {
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.ci:hover {
+    color: #e7b018;
+}
+
+.copyright {
+    font-size: 11px;
+    margin: 30px 0 70px 573px;
+}
+
+.up-arrow-nav-btn {
+    text-align: right;
+    margin: 0 50px 50px 0px;
+}
